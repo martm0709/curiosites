@@ -1,0 +1,11 @@
+<h1><%= @name %></h1>
+<h2><%= @surname %></h2>
+<p><%= @description %></p>
+<p><%= @description2 %></p>
+<img src="https://pbs.twimg.com/profile_images/948294484596375552/RyGNqDEM_400x400.jpg"></img>
+
+
+<h2> Ses curiosités </h2>
+<% @my_curiosities.each do |curiosity| %>
+    <p> - <%= curiosity %> </p>
+ <% end %>   
